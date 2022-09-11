@@ -20,7 +20,7 @@ app.use(express.json());
 //routes
 
 app.get('/',(req,res) => {
- res.send('<h1>Store API</h1><a href="/api/v1/products>products route</a/>')
+ res.send('<h1>api store</h1><a href="/api/v1/products">products route</a/>')
 });
 
 app.use('/api/v1/products',productsRouter);
